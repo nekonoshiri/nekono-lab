@@ -4,8 +4,6 @@ import Layout from "../components/layout"
 export default () => (
   <>
     <Layout>
-      <p>猫野研究室のホームページです。</p>
-
       <section>
         <h2>About</h2>
         <p>
