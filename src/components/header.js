@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "@emotion/styled"
+
+const Header = styled.header``
 
 export default () => (
-  <header>
+  <Header>
     <h1>猫野研究室</h1>
     <nav>
       <ul>
@@ -20,5 +23,5 @@ export default () => (
         </li>
       </ul>
     </nav>
-  </header>
+  </Header>
 )
