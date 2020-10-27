@@ -21,6 +21,9 @@ export default () => (
         <li>
           <Link to="/link/">Link</Link>
         </li>
+        <li>
+          <a href="https://cylomw.hatenablog.com">Blog</a>
+        </li>
       </ul>
     </nav>
   </Header>
