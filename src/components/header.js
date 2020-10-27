@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 import styled from "@emotion/styled"
 
 const Header = styled.header`
-  margin: 10px;
-  padding: 10px;
+  padding-top: 10px;
   background-color: lavender;
 
   h1 {
@@ -18,21 +17,28 @@ const Header = styled.header`
     justify-content: space-around;
 
     li {
-      width: 5rem;
-      height: 2rem;
-      &:hover {
-        background-color: orange;
-      }
+      flex-grow: 1;
+      height: 3rem;
     }
 
     a {
       color: black;
       text-decoration: none;
+
       display: flex;
       justify-content: center;
       align-items: center;
+
       height: 100%;
       width: 100%;
+
+      &.active {
+        background-color: cornsilk;
+      }
+
+      &:hover {
+        background-color: orange;
+      }
     }
   }
 `
@@ -43,16 +49,24 @@ export default () => (
     <nav>
       <ul>
         <li>
-          <Link to="/">Top</Link>
+          <Link to="/" activeClassName="active">
+            Top
+          </Link>
         </li>
         <li>
-          <Link to="/profile/">Profile</Link>
+          <Link to="/profile/" activeClassName="active">
+            Profile
+          </Link>
         </li>
         <li>
-          <Link to="/work/">Work</Link>
+          <Link to="/work/" activeClassName="active">
+            Work
+          </Link>
         </li>
         <li>
-          <Link to="/link/">Link</Link>
+          <Link to="/link/" activeClassName="active">
+            Link
+          </Link>
         </li>
         <li>
           <a href="https://cylomw.hatenablog.com">Blog</a>
