@@ -13,12 +13,10 @@ export default () => (
           <a href="https://twitter.com/CyLomw">@CyLomw</a> –– メイン
         </li>
         <li>
-          <a href="https://twitter.com/chlrfc">@chlrfc</a> –– おくいず (QMA)
-          用
+          <a href="https://twitter.com/chlrfc">@chlrfc</a> –– おくいず (QMA) 用
         </li>
         <li>
-          <a href="https://twitter.com/shirinekono">@shirinekono</a> ––
-          推し事用
+          <a href="https://twitter.com/shirinekono">@shirinekono</a> –– 推し事用
         </li>
       </ul>
     </section>
@@ -77,9 +75,7 @@ export default () => (
 
     <section>
       <h3>Wantedly</h3>
-      <a href="https://www.wantedly.com/users/141676898">
-        Yoshihara Tomohiro
-      </a>
+      <a href="https://www.wantedly.com/users/141676898">Yoshihara Tomohiro</a>
     </section>
   </Layout>
 )

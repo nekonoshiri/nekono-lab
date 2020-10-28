@@ -35,10 +35,9 @@ export default () => (
 
       <h4>プログラミング言語</h4>
       <p>
-        プログラミング言語全般およびその理論。学習した言語は Python,
-        JavaScript, TypeScript, Haskell, C/C++, Go, Java, Scala, Ruby, PHP,
-        VBA, Fortran, D, Erlang, PureScript, Elm, C#, Dart, Clojure, Common
-        Lisp, AWK, R など。
+        プログラミング言語全般およびその理論。学習した言語は Python, JavaScript,
+        TypeScript, Haskell, C/C++, Go, Java, Scala, Ruby, PHP, VBA, Fortran, D,
+        Erlang, PureScript, Elm, C#, Dart, Clojure, Common Lisp, AWK, R など。
       </p>
 
       <h4>ソフトウェアの設計開発</h4>
