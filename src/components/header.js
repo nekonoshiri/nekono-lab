@@ -14,7 +14,6 @@ const Header = styled.header`
     list-style: none;
 
     display: flex;
-    justify-content: space-around;
 
     li {
       flex-grow: 1;

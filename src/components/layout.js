@@ -33,6 +33,10 @@ const Main = styled.main`
   h4 {
     margin: 20px 0;
   }
+
+  ul {
+    padding-left: 1rem;
+  }
 `
 
 export default ({ pageTitle, children }) => (
