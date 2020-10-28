@@ -13,6 +13,9 @@ export const wrapPageElement = ({ element }) => (
             "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo",
             sans-serif;
         }
+        ul {
+          padding-left: 1rem;
+        }
       `}
     />
     {element}
