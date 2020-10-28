@@ -1,7 +1,9 @@
 import React from "react"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 
-export default () => (
+export default ({ data }) => (
   <Layout>
     <h2>Work</h2>
 
@@ -9,7 +11,10 @@ export default () => (
       <h3>いもむしくん</h3>
 
       <figure>
-        <p>TODO: ここに画像</p>
+        <Img
+          fluid={data.imomushi_kun.childImageSharp.fluid}
+          alt="いもむしくん"
+        />
         <figcaption>いもむしくん</figcaption>
       </figure>
 
@@ -19,3 +24,15 @@ export default () => (
     </section>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    imomushi_kun: file(relativePath: { eq: "imomushi-kun.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
