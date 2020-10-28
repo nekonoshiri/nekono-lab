@@ -1,5 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
+
+import Helmet from "./helmet"
 import Header from "./header"
 import Footer from "./footer"
 
@@ -33,8 +35,9 @@ const Main = styled.main`
   }
 `
 
-export default ({ children }) => (
+export default ({ pageTitle, children }) => (
   <Layout>
+    <Helmet pageTitle={pageTitle} />
     <Header />
     <Main>{children}</Main>
     <Footer />

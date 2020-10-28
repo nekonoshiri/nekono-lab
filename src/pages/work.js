@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 
 export default ({ data }) => (
-  <Layout>
+  <Layout pageTitle="Work">
     <h2>Work</h2>
 
     <section>

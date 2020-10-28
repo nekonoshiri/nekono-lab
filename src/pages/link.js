@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 export default () => (
-  <Layout>
+  <Layout pageTitle="Link">
     <h2>Link & Contact</h2>
     <p>連絡は Twitter か GitHub 記載のメールアドレスにお願いします。</p>
 
