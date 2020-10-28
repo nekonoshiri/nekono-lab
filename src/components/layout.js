@@ -3,13 +3,19 @@ import styled from "@emotion/styled"
 import Header from "./header"
 import Footer from "./footer"
 
-const Main = styled.main`
-  padding: 10px;
+const Layout = styled.main`
+  display: flex;
+  flex-direction: column;
+`
 
+const Main = styled.main`
+  align-self: center;
+
+  padding: 10px;
+  width: 100%;
   max-width: 1000px;
 
   h2 {
-    padding: 10px;
     margin-bottom: 20px;
   }
 
@@ -28,9 +34,9 @@ const Main = styled.main`
 `
 
 export default ({ children }) => (
-  <>
+  <Layout>
     <Header />
     <Main>{children}</Main>
     <Footer />
-  </>
+  </Layout>
 )
