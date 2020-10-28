@@ -1,8 +1,5 @@
 import React from "react"
-import { Global, css } from "@emotion/core"
 import styled from "@emotion/styled"
-import ress from "ress"
-
 import Header from "./header"
 import Footer from "./footer"
 
@@ -32,17 +29,6 @@ const Main = styled.main`
 
 export default ({ children }) => (
   <>
-    <Global
-      styles={css`
-        ${ress}
-        body {
-          background-color: ivory;
-          font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
-            "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo",
-            sans-serif;
-        }
-      `}
-    />
     <Header />
     <Main>{children}</Main>
     <Footer />
