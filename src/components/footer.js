@@ -1,7 +1,7 @@
-import React from "react"
 import styled from "@emotion/styled"
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons"
+import React from "react"
 
 const Footer = styled.footer`
   text-align: center;

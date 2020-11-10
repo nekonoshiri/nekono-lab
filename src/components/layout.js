@@ -1,9 +1,9 @@
-import React from "react"
 import styled from "@emotion/styled"
+import React from "react"
 
-import Helmet from "./helmet"
-import Header from "./header"
 import Footer from "./footer"
+import Header from "./header"
+import Helmet from "./helmet"
 
 const Layout = styled.main`
   display: flex;

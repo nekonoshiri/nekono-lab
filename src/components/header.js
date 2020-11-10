@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
 import styled from "@emotion/styled"
+import { Link } from "gatsby"
+import React from "react"
 
 const Header = styled.header`
   padding-top: 10px;

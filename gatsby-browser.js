@@ -1,7 +1,7 @@
 import "ress"
 
-import React from "react"
 import { Global, css } from "@emotion/core"
+import React from "react"
 
 export const wrapPageElement = ({ element }) => (
   <>
